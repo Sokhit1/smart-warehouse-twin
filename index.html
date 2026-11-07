@@ -1607,7 +1607,7 @@ function renderDock(){
   rollChips();
   const el = $("runChart"), W = Math.max(300, el.clientWidth), H = Math.max(80, el.clientHeight), L = 34, R = 8, T = 6, B = 16, pw = W-L-R, phh = H-T-B;
   const last = Math.max(d0 + 1, Math.min(D.N - 1, d0 + 23, liveI())), IN = D.siteIn, OUT = D.siteOut;
-  let max = 1; for (let k = d0; k <= last; k++) max = Math.max(max, IN[k], OUT[k]); const ystep = niceStep(max*1.08/4); max = ystep*4;
+  let max = 4; for (let k = d0; k <= last; k++) max = Math.max(max, IN[k], OUT[k]); const ystep = niceStep(max*1.08/4); max = ystep*4;
   const X = k => L + (k - d0)/23*pw, Y = v => T + phh - v/max*phh;
   $("runTitle").textContent = t("Running data · {d}", {d:fDay(D.minT + d0*HOUR)});
   const series = [["Received", IN, "#29d3ff"], ["Shipped", OUT, "#cfe3f5"]];
