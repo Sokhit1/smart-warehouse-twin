@@ -2,7 +2,8 @@
 
 A live 3D digital twin of a logistics park in Phnom Penh, built at the Institute of Technology of Cambodia (ITC) by Dr. PLACK Sokhit.
 
-**Live site:** https://smart-warehouse-twin.netlify.app
+**Live site:** https://smart-warehouse-twin.netlify.app  
+**Demo video (47 s):** https://smart-warehouse-twin.netlify.app/demo/Smart-Warehouse-Twin-demo.mp4
 
 ## What it does
 - 3D logistics park (dry warehouses, 2–8 °C cold store, cross-dock, 26 dock doors, roads, gate, truck yard) you can rotate, zoom and click
